@@ -35,9 +35,9 @@ public class Punto {
 		return Math.hypot(x, y);
 	}
 
-	public void mover(double nx,double ny) {
-		this.x += nx;
-		this.y +=ny;
+	public void mover(double enX,double enY) {
+		this.x += enX;
+		this.y += enY;
 	}
 
 
